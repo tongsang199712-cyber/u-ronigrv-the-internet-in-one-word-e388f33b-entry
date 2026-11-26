@@ -11,6 +11,12 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // land before the reader thinks, and not the first word anyone reaches for.
 const word = "feral";
 
+// Guard: the gate only accepts 1-30 chars of non-whitespace text, so
+// refuse to write anything that is not exactly one word.
+if (!/^\S{1,30}$/.test(word)) {
+  throw new Error(`entry must be a single word of 1-30 characters, got: ${JSON.stringify(word)}`);
+}
+
 mkdirSync("/output", { recursive: true });
 
 // Exactly one word, no trailing newline, no extra whitespace.
