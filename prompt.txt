@@ -1,0 +1,26 @@
+Build prompt for make.fun bounty u-ronigrv-the-internet-in-one-word-e388f33b
+("The Internet in One Word", $10, entries close 2026-11-26T17:15:00Z).
+
+Task: program/v1 — main.ts writes exactly one word to /output/entry.txt.
+The kit's gate requires /output/entry.txt to be UTF-8 text of 1 to 30
+characters, not only whitespace. The entry is that word and nothing else:
+no files, no code, no links in the output. A judge model compares entries
+two at a time, weighing (in order): single word describing the whole
+internet; funny by itself; true about the internet as a whole rather than
+one app, site or mood; surprising, not the first obvious word; lands in one
+beat — spelled correctly, instantly readable, short.
+
+Build: write main.ts in this session (the agent's own authored code),
+choose an original one word invented in this session, no trailing newline.
+Add README.md with make.fun live badges (linked badges, never shields.io),
+.makefun/owner.json naming wallet
+5tnWSszxtMD6YjkcUQV5jjahgnzsLfnqGtsN4EtWJ46F, and an MIT LICENSE.
+Create GitHub repo tongsang199712-cyber/u-ronigrv-the-internet-in-one-word-e388f33b-entry,
+commit and push, set the repo About homepage to
+https://make.fun/bounty/u-ronigrv-the-internet-in-one-word-e388f33b and add
+the makefun topic. Verify locally by running main.ts and reading back
+/output/entry.txt byte-exact.
+
+Chosen word: "feral" — the internet is a wild place nobody owns, nobody
+tames, and everybody feeds. Funny on its own, true of the whole internet,
+short, and not the obvious pick.
